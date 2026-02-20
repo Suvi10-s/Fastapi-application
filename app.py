@@ -1,3 +1,9 @@
+# Build a FastAPI application with JWT-based authentication.
+# Implement APIs for user registration and login with secure password hashing and token generation.
+# Create user management APIs to add users, list all users, get user details, and delete users.
+# Protect all user-related APIs using token validation.
+# Implement a logout API that invalidates or blocks the active token.
+    
 from fastapi import FastAPI,HTTPException,Depends
 from fastapi.security import HTTPAuthorizationCredentials,HTTPBearer
 from datetime import datetime,timedelta
